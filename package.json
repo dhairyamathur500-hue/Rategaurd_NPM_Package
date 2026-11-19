@@ -1,0 +1,31 @@
+{
+  "name": "rateguard",
+  "version": "1.0.0",
+  "description": "In-memory Express.js API rate-limiting middleware with custom keys and automatic cleanup",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test tests/index.test.js"
+  },
+  "keywords": [
+    "express",
+    "rate-limit",
+    "rate-limiter",
+    "security",
+    "throttle",
+    "middleware"
+  ],
+  "author": "Dhairya Mathur",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "express": "^5.3.0"
+  }
+}
